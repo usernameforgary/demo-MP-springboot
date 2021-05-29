@@ -13,6 +13,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.Arrays;
+import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -83,5 +84,13 @@ public class TestUserMapper {
     public void testSelectUserById() {
         User user = userMapper.selectById(1L);
         System.out.println(user.getUserName());
+    }
+
+    @Test
+    public void testSelectAllFromMyBaseMapper() {
+        List<User> users = userMapper.findAll();
+        for(User user : users) {
+            System.out.println(user.getUserName());
+        }
     }
 }

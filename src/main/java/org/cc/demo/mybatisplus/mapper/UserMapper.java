@@ -1,8 +1,8 @@
 package org.cc.demo.mybatisplus.mapper;
 
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.cc.demo.mybatisplus.mapper.customization.MyBaseMapper;
 import org.cc.demo.mybatisplus.pojo.User;
 
-public interface UserMapper extends BaseMapper<User> {
+public interface UserMapper extends MyBaseMapper<User> {
     User findUserById(Long id);
 }
