@@ -1,6 +1,5 @@
 package org.cc.demo.mybatisplus.mapper;
 
-import org.cc.demo.mybatisplus.mapper.customization.MyBaseMapper;
 import org.cc.demo.mybatisplus.pojo.User;
 
 public interface UserMapper extends MyBaseMapper<User> {

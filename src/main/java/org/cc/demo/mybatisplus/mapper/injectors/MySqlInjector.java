@@ -1,4 +1,4 @@
-package org.cc.demo.mybatisplus.mapper.customization;
+package org.cc.demo.mybatisplus.mapper.injectors;
 
 import com.baomidou.mybatisplus.core.injector.AbstractMethod;
 import com.baomidou.mybatisplus.core.injector.DefaultSqlInjector;

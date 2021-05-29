@@ -1,4 +1,4 @@
-package org.cc.demo.mybatisplus.mapper.customization;
+package org.cc.demo.mybatisplus.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
